@@ -13,6 +13,7 @@ body{
 
     margin:0 auto;
     margin-top: 20px;
+    margin-bottom: 100px;
 
     display: flex;
 
@@ -53,6 +54,39 @@ body{
     gap:20px;
 }
 
+/* banner */
+.left{
+    grid-area:left;
+    /* padding:10px; */
+    /* border: 2px solid green; */
+     align-self: end;
+
+     margin-right: 30px;
+
+}
+.right{
+    grid-area:right;
+    /* padding:10px; */
+    
+}
+.R_img{
+    height: 100%;
+}
+
+.banner{
+    /* border: 2px solid green; */
+    margin-top: 30px;
+    width: 940px;
+    margin: 0 auto;
+    align-items: stretch;
+
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-areas: " left Right"
+                          "left right"
+    ;
+}
+
 @media screen and (max-width:640px){
     
     .menubar
@@ -84,5 +118,17 @@ body{
 
         display: inline;
     }
+
+    .banner{
+        width:430px;
+        grid-template-areas: " Right"
+                          "left";
+
+        margin-top: 70px;
+
+        gap:10px;
+    }
+
+
     
 }
