@@ -92,6 +92,7 @@ body{
     width:940px;
     /* border: 2px solid green; */
     margin:0 auto;
+    margin-bottom: 70px;
 }
 
 .p_up{
@@ -115,7 +116,7 @@ body{
 }
 
 .card_bottom{
-    /* border: 2px solid green; */
+    
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -127,6 +128,43 @@ body{
 }
 .p_up h3{
     margin-bottom:10px;
+}
+
+/* plant lover */
+.plantlover{
+     width:940px;
+    /* border: 2px solid green; */
+    margin:0 auto;
+    margin-bottom: 70px;
+    
+
+}
+.pltop{
+    /* border: 2px solid green; */
+    display: flex;
+    margin-top: -45%;
+    
+}
+.pltop img{
+    /* border: 2px solid green; */
+    height: 20%;
+    width: 20%;
+    margin-left: 25%;
+   
+    
+}
+.plleft{
+    width:70%;
+}
+.plbottom{
+     /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     
+    
+}
+.plright{
+    margin-left: 0;
 }
 
 
@@ -195,5 +233,33 @@ body{
     padding-bottom: 30px;
 
     
+}
+
+.pltop img{
+    display: none;
+   
+    
+}
+.plbottom img{
+    width:430px;
+    /* border: 2px solid green; */
+
+}
+
+.plbottom{
+   justify-content: center;
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+     
+     gap:10px;
+}
+
+.plantlover{
+
+     width:430px;
+    /* border: 2px solid green; */
+    margin:0 auto;
+    margin-top: 70px;
 }
 }
