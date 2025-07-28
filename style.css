@@ -1,6 +1,10 @@
 body{
-    background: linear-gradient(rgb(231, 240, 240),white);
-    height: auto;
+    /* background: linear-gradient(rgb(231, 240, 240),white); */
+    /* height: auto; */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* or any value like 300, 500, 700 */
+    font-style: normal;
 }
 body{
     width: 100%;
@@ -133,6 +137,7 @@ body{
 /* plant lover */
 .plantlover{
      width:940px;
+     height: 400px;
     /* border: 2px solid green; */
     margin:0 auto;
     margin-bottom: 70px;
@@ -166,6 +171,50 @@ body{
 .plright{
     margin-left: 0;
 }
+
+/* Join Section */
+
+.joinSection{
+    height: 300px;
+    width: 100%;
+    position: relative;
+
+    display: inline-block;
+
+    /* border: 2px solid green; */
+
+
+}
+
+
+.jimg{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 200px;
+   
+    margin-top: 100px;
+    display: block;
+    /* top:50%; */
+
+}
+.jimg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.jup{  
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform:translate(-50%,-50%) ;
+    text-align: center;
+    color:white;
+
+    
+    /* z-index: 2; */
+    
+}
+
 
 
 
@@ -240,12 +289,19 @@ body{
    
     
 }
-.plbottom img{
-    width:430px;
+.plleft img{
+    width:100%;
+    /* height: 80%; */
     /* border: 2px solid green; */
 
 }
 
+.plleft{
+    width: 430px;
+    /* height: 700px; */
+    /* border: 2px solid green; */
+
+}
 .plbottom{
    justify-content: center;
     /* border: 2px solid green; */
@@ -259,6 +315,7 @@ body{
 
      width:430px;
     /* border: 2px solid green; */
+    height: 600px;
     margin:0 auto;
     margin-top: 70px;
 }
