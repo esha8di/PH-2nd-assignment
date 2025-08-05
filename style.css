@@ -315,7 +315,7 @@ footer{
     width: 100%;
 } */
 
-
+/* Considering mobile screen width as 640px */
 @media screen and (max-width:640px){
     
     .menubar
